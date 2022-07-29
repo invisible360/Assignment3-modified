@@ -18,6 +18,9 @@ body {
 .register-modal {
     background-color: #289BDE;
 }
+.success-info {
+    width: 50%;
+}
 .width-faq-md-sm-xs {
     width: 75%;
 }
@@ -60,6 +63,10 @@ body {
         font-size: 18px;
     }
 
+    .success-info {
+        width: 100%;
+        text-align: center;
+    }
     .join-info {
         text-align: center;
     }
@@ -100,6 +107,11 @@ body {
         font-size: 18px;
     }
 
+    .success-info {
+        width: 100%;
+        text-align: center;
+    }
+
     .join-info {
         text-align: center;
     }
@@ -135,6 +147,9 @@ body {
 
     .explore-info p{
         font-size: 12px;
+    }
+    .success-info {
+        width: 75%;
     }
 
     .join-info {
