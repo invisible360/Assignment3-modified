@@ -24,6 +24,36 @@ body {
 .width-faq-md-sm-xs {
     width: 75%;
 }
+
+.fa-quote-right {
+    font-size: 3rem;
+    color: #D2D2D2;
+}
+
+.fill-star {
+    color: gold;
+}
+.empty-star {
+    color: #FCD34D;
+}
+
+.author-info h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.author-info p {
+    font-size: 12px;
+}
+.left-arrow {
+    color: #289BDE;
+    margin-left: -13px;
+    font-size: 25px;
+}
+.right-arrow {
+    color: #289BDE;
+    margin-right: -13px;
+    font-size: 25px;
+}
 .w-logo {
     width: 10%;
 }
@@ -125,6 +155,7 @@ body {
     .width-faq-md-sm-xs {
         width: 100%;
     }
+
     
 }
 
