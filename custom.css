@@ -4,6 +4,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.menu-center {
+    margin-left: 150px;
+}
+
+.slider-img {
+    filter: brightness(70%);
+}
+
 .course-info p{
     font-size: 13px;
 }
@@ -29,6 +37,10 @@ body {
 
 /* extra small device */
 @media only screen and (max-width: 575px) {
+    .menu-center {
+        margin-left: 0;
+    }
+    
     .carusel-font h1{
         font-size: 20px;
 
@@ -65,6 +77,10 @@ body {
 
 /* small devices */
 @media only screen and (min-width: 576px) and (max-width: 768px) {
+    .menu-center {
+        margin-left: 0;
+    }
+    
     .carusel-font h1{
         font-size: 25px;
 
@@ -87,6 +103,8 @@ body {
     .join-info {
         text-align: center;
     }
+    
+     
     .register-btn {
         width: 100%;
         display: flex;
@@ -100,11 +118,23 @@ body {
 
 /* medium devices */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
+    .menu-center {
+        margin-left: 0;
+    }
+    
     .course-info h6{
         font-size: 25px;
     }
     .course-info p{
         font-size: 16px;
+    }
+
+    .explore-info h3{
+        font-size: 20px;
+    }
+
+    .explore-info p{
+        font-size: 12px;
     }
 
     .join-info {

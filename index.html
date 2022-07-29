@@ -26,17 +26,23 @@
         <div class="container">
           <a class="navbar-brand fs-3 fw-bold" href="#">TechEdu.com</a>
 
-          <!-- Hidden menu button starts -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Hidden menu button ends -->
+          <div class="d-flex justify-content-around">
+            <button class="btn btn-outline-primary d-lg-none d-md-block d-sm-none d-none me-2"
+              type="submit">Register</button>
+
+            <!-- Hidden menu button starts -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Hidden menu button ends -->
+          </div>
+
 
           <!-- Menu starts -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-center">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -58,7 +64,8 @@
             </ul>
 
             <form>
-              <button class="btn btn-outline-primary" type="submit">Register</button>
+              <button class="btn btn-outline-primary d-block d-sm-block d-md-none d-lg-block"
+                type="submit">Register</button>
             </form>
           </div>
           <!-- menu ends -->
@@ -76,7 +83,7 @@
 
           <!-- item-1 -->
           <div class="carousel-item active">
-            <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+            <img src="images/cover/cover-1.png" class="img-fluid d-block w-100 slider-img" alt="...">
             <div class="carousel-caption d-block carusel-font">
               <h1 class="fw-bold">Get Started Digital Learning</h1>
               <p>Looking for your desired course digitally? this site is only foy you. Here you will find variety of
@@ -92,7 +99,7 @@
 
           <!-- item-2  -->
           <div class="carousel-item">
-            <img src="images/cover/cover-2.jpg" class="img-fluid d-block w-100" alt="...">
+            <img src="images/cover/cover-2.jpg" class="img-fluid d-block w-100 slider-img" alt="...">
             <div class="carousel-caption d-block carusel-font">
               <h1 class="fw-bold">Get Started Digital Learning</h1>
               <p>Looking for your desired course digitally? this site is only foy you. Here you will find variety of
@@ -108,7 +115,7 @@
 
           <!-- item-3 -->
           <div class="carousel-item">
-            <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+            <img src="images/cover/cover-3.jpg" class="img-fluid d-block w-100 slider-img" alt="...">
             <div class="carousel-caption d-block carusel-font">
               <h1 class="fw-bold">Get Started Digital Learning</h1>
               <p>Looking for your desired course digitally? this site is only foy you. Here you will find variety of
@@ -285,6 +292,43 @@
 
     </section>
     <!-- discover popular courses section ends -->
+
+    <!-- Explore learning section starts -->
+    <section class="mb-5 mx-3" id="deals">
+      <div class="row" style="background-color: #F4FAFD;">
+        <div class="col-12 col-lg-5 col-md-5 col-sm-12 ps-0">
+          <img class="img-fluid" src="images/working.png" alt="">
+        </div>
+        <div class="col-12 col-lg-7 col-md-7 col-sm-12 d-flex align-items-center">
+          <div class="explore-info p-3 p-sm-3 p-md-0 p-lg-0">
+            <h3 class="fw-bold">Explore The elearning Institute</h3>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+              are
+              going to use a passage of Lorem Ipsum, you need to be sure. <br><br> Anything embarrassing hidden in the
+              middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+
+            <div class="d-flex justify-content-between w-75 mt-5">
+              <div>
+                <h4 class="fw-bold">3.2K+</h4>
+                <p>Online Course</p>
+              </div>
+              <div>
+                <h4 class="fw-bold">600+</h4>
+                <p>Expert Member</p>
+              </div>
+              <div>
+                <h4 class="fw-bold">3.2K+</h4>
+                <p>Ratings & Review</p>
+              </div>
+            </div>
+            <div class="btn btn-primary">Read More</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Explore learning section ends -->
 
     <!-- reday to join section(Bonus) starts -->
     <section class="mb-5" id="register">
